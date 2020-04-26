@@ -10,3 +10,12 @@
     password: "{{ password | password_hash('sha512') }}"
     update_password: on_create
   become: yes
+
+- name: man pages ja
+  yum: 
+    name: "{{ packages }}"
+    state: latest
+  vars:
+    packages:
+      - langpacks-ja
+      - man
