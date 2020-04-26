@@ -4,6 +4,7 @@ Setup Zabbix Server
 ## 概要
 Zabbixのインストール & 起動を行う。
 1. OSユーザ作成
+1. manpagesの日本語化
 1. firewalldの設定
 1. MariaDBのインストール & 起動
 1. Zabbixサーバ、クライアントをインストール & 起動
